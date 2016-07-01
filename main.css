@@ -1,0 +1,162 @@
+body {
+    height: 650px;
+ 
+background-image: url(http://wallpapercave.com/wp/4BRu1hP.jpg);
+}
+
+.leftContainer{
+    width: 20%;
+             position: absolute;
+             top: 380px;
+             left: 0px;
+             font-family: sans-serif;
+            
+}
+    
+
+li#tableH{
+    border-top: 5px outset black;
+    padding: 0;
+    margin: 0;
+    background-color: #265a88;
+    color:black;
+    border: 5px outset #265a88;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; 
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    
+}
+ul.firstList{
+    list-style-type:  none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    
+}
+ul.firstList>li {
+    margin: 0;
+    padding: 0;
+    height: 31px;
+    
+    border: 2px outset #3e8f3e;
+    background-color: #3e8f3e;
+     
+    border-top-right-radius: 2px;
+  
+     border : 5px solid #265a88;
+}
+ul.firstList>li>a{
+    text-decoration: none;
+    color:black;
+    padding:  7px;
+    font-size: 12px;
+    font-weight: bold;
+   
+
+}
+#tableHs{ border-top: 5px outset black;
+    padding: 0;
+    margin: 0;
+    background-color: #265a88;
+    color:black;
+    border: 5px outset #265a88;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; 
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    width: 150px;
+}
+#input{
+    
+    margin-top:  5px;
+    margin-left:12px;
+    width: 130px;
+    text-align: center;
+}
+.secondList{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+.secondTable{
+    margin-top: 10px;
+    width: 150px;
+    border : 5px solid #265a88;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.middleContainer{
+    position: absolute;
+    left: 180px;
+    border-radius: 5px;
+    width: 850px;
+    border: 5px inset #3e8f3e;
+    background-color: white;
+}
+/* child middle left side container*/
+td.cmiddleContainer{
+    width: 550px;
+    margin: 10px;
+}
+.mHeading{
+    color: black;
+    text-align: center;
+    background-color: #3e8f1e;
+    border: 2px outset cadetblue;    
+}
+/* second child .middleContainer right side*/
+.smiddleContainer{
+    width: 220px;
+    margin: 30px;
+    position: absolute;
+    top: 0px;
+    
+}
+.leftTable{
+    margin-bottom: 30px;
+    border: 5px solid  #265a88;
+}
+th{
+    background-color:  #265a88;
+    color: white;
+    padding: 5px;
+}
+.rightTd
+{
+    background-color: cadetblue;
+}
+.secondLeftTable{
+    margin-bottom: 30px;
+  border: 5px solid #265a88;
+  width: 227px;
+  
+   
+    
+}
+h3{
+    border-top: 5px outset black;
+    padding: 0;
+    margin: 0;
+    background-color: #265a88;
+    color:black;
+    border: 5px outset #265a88;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; 
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+span{
+    font-size: 11px;
+}
