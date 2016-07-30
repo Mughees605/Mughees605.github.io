@@ -2,132 +2,274 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" href="main.css" type="text/css">
+    <title>Demo Website</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <style>
+        p.same{
+            text-align: justify;
+            word-spacing: 0.0em;
+        }
+        #bottom{
+            text-align: center;
+        }
+        .bottom{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-style: italic;
+        }
+        div.carousel-inner > .item > img{
+            margin: auto;
+            width: 70%;
+        }
+    </style>
 </head>
 <body>
-
-        
-        <img src="http://onehdwallpaper.com/wp-content/uploads/2015/07/Bismillah-Islamic-HD-Wallpaper-800x500.jpg" width="1020px" height="350px">
-    
-    
-    <div class="leftContainer">
-    <table>
-
-
-        <tr>
-
-            <td>
-                <ul class="firstList">
-                    <li id="tableH">Aritcles Catogries</li>
-                    <li>
-                        <a href="#">Evidance Islam is truth.</a>
-                    </li>
-                    <li>
-                        <a href="#">The Benefits of Islam</a>
-                    </li>
-                    <li>
-                        <a href="#">Beleifs of Islam</a>
-                    </li>
-                    <li>
-                        <a href="#">How to convert to Islam</a>
-                    </li>
-                    <li>
-                        <a href="#">Worship and Practice</a>
-                    </li>
-                    <li>
-                        <a href="#">The Hereafter</a>
-                    </li>
-                    <li>
-                        <a href="#">Stories of new Muslims</a>
-                    </li>
-                    <li>
-                        <a href="#">Prophet Muhammad</a>
-                    </li>
-                    <li><a href="#">Current issues</a></li>
-                    <li><a href="#">Islamic History</a></li>
-                    <li><a href="#">Systems in Islam</a></li>
-
-                </ul>
-            </td>
-        </tr>
-        <table>
-            <tr><td>
-                <ul class="firstList"><li id="tableHs">Video Catogries</li></ul></td></tr>
-        </table>
-        <table class="secondTable">
-    <tr>
-        <td>
-            <ul class="secondList">
-                <li id="tableHs">Search</li>
-                <li><input type="text" id="input"></li>
-                <li><input type="radio" checked >All Words</li>
-                <li><input type="radio">Find Words</li>
-                <li><input type="radio">Excact Words</li>
-                <li><input type="radio">Sound Like</li>
-                <li><input type="Checkbox">Include derivatives</li>
-                <li><input type="checkbox">include synonyms</li>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand"><span class="glyphicon glyphicon-globe"></span> Nanosoft</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Product</a></li>
+                <li class="dropdown">
+                    <a href="#" data-toggle="dropdown" class="dropdown-toggle"><span class="caret"></span> Service</a>
+                    <ul class="dropdown-menu">
+                        <li>Javascript</li>
+                        <li>HTML</li>
+                    </ul>
+                </li>
+                <li><a>Contacts</a></li>
             </ul>
-        </td>
-    </tr>
-</table>
-    </table>
-</div>
-<div class="middleContainer">
-    <table >
-        <tr>
-    <td class="cmiddleContainer">
-   <h1 class="mHeading">New Article this week</h1>
-   <h2 ><a href="#" style="color:blue;">Chapter98 Bayanah (The clear evidence)</a></h2>
-   <p><img src="http://cdn.bramuenhome.com/2016/04/13/small_3d-nature-wallpapers-new-3d-nature-wallpapers-beautiful-nature-3d.jpg" alt="Nature" align="right">Surah Bayyinah, Chapter 98
-(The Clear Evidence)
-Number of Verses: 8
-Contents of the Surah
-بِسْمِ اللهِ الرَّحْمنِ الرَّحِيمِ
-In The Name of Allah, The Beneficent, The Merciful
+            <form class="navbar-form navbar-right">
+                <div class="form-group">
+                    <input type="text" class="form-control">
+                </div>
+                <button type="button" class="btn btn-default ">Search <span class="glyphicon glyphicon-search"></span></button>
+            </form>
 
-The contents of the Surah attests to the fact that it was revealed in Medina, because, the People (Jews and Christians) of the Book (the Scripture) are repeatedly talked about, and we know that at the time of revelation the communication between the Muslims and the people of the Book occurred mostly in Medina.
+        </div>
+    </nav>
+      <!--couresel -->
+      <div class="jumbotron feature">
+          <div class="container">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-ride-to="0"></li>
+      <li data-target="#myCarousel" data-ride-to="1"></li>
+      <li data-target="#myCarousel" data-ride-to="2"></li>
+      <li data-target="#myCarousel" data-ride-to="3"></li>
 
-Furthermore, the words of the Surah are both about prayers and alms. It is true that the duty of paying the alms-tax was issued in Mecca, but the act of spreading this idea with the necessary formalities, was extended in Medina.</p>
-<h1 class="mHeading">New Videos this week</h1>
-<p><iframe width="320" height="320" align="right" src="https://www.youtube.com/embed/jzKHG1pKPS8" frameborder="0" allowfullscreen></iframe>One of the ways prophets were introduced to the people was by another prophet whose prophethood had been proved with logical reasoning. The previous prophet specifically introduced the future prophet, and this introduction should be to the extent that he had destroyed all doubts towards the upcoming prophet. The prophethood of the Holy Prophet (S.A.W.) was proven not only through clear logical reasoning, but also through the books of the previous prophets.
-Furthermore, his name and characteristics have been clarified in the old and new testaments. Allah (SWT) in the Holy Quran narrates from Prophet Isa/Jesus (A.S.): "And remember, Jesus, the son of Mary, said: "O Children of Israel! I am the messenger of Allah (sent) to you, confirming the Law (which came) before me, and giving Glad Tidings of a Messenger to come after me, whose name shall be Ahmad."(2) When this verse and the like were revealed, Holy Prophet Muhammad (S.A.W.) recited them for people, and amongst them certainly groups of Jews and Christians resided in the Arabian Peninsula. Certainly if this news did not exist in their books, the scholars of these two religions would have objected immensely to this matter. However according to authentic historical references, they not only remained silent to these words, but as a matter of fact many of them became Muslims.</p>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="./img/slide1.jpg" height="365" width="460">
+        <div class="carousel-caption">
+          <h1>Nanosoft</h1>
+          <p>Highly preferred company for software development.</p>
+        </div>
+      </div>
+       <div class="item">
+            <img src="./img/slide2.jpg" height="365" width="460">
+        </div>
+        <div class="item">
+            <img src="./img/slide3.jpg" height="365" width="460">
+        </div>
+        <div class="item">
+            <img src="./img/slide4.jpg" height="365" width="460">
+        </div>
+    </div>
+    <a href="#myCarousel" class="left carousel-control" data-slide="prev"><span class="icon-prev"></span></a>
+    <a href="#myCarousel" class="right carousel-control" data-slide="next"><span class="icon-next"></span></a>
+  </div>
+  </div>
+  </div>
+    <!--ENd carousel-->
+    <!--navigation bar  end-->
+    <div class="container">
+        <!-- -->
+        <div class="col-sm-3">
+            <!--Left coloumn start-->
+            <!--fIRST PANEL START-->
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h1 class="panel-title"><span class="glyphicon glyphicon-random"></span>Completely synergize</h1>
+                </div>
+                <div class="list-group">
+                    <a href="#" class="list-group-item">Resource Taxing</a>
+                    <a href="#" class="list-group-item">Premier Niche Market</a>
+                    <a href="#" class="list-group-item">Dynamically Innovate</a>
+                    <a href="#" class="list-group-item">Objectively Innovate</a>
+                    <a href="#" class="list-group-item">Proactively Envisioned</a>
+                </div>
+            </div>
+            <!--FIRST PANEL END-->
+            <!--second paner start-->
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h1 class="panel-title"><span class="glyphicon glyphicon-cog"></span>Dramatically Engage</h1>
+                </div>
+                <div class="panel-body">
+                    <p>Objectively innovate empowered manufactured products whereas parallel platforms. Holisticly predominate
+                        extensible testing procedures for reliable supply chains. Dramatically engage top-line web services
+                        vis-a-vis cutting-edge deliverables.
+                    </p>
+                    <button class="btn btn-primary">Engage</button>
+                </div>
+            </div>
+            <!--second panel end-->
+            <!--Third panel start-->
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h1 class="panel-title"><span class="glyphicon glyphicon-bullhorn"></span>Active Predomination</h1>
+                </div>
+                <div class="panel-body">
+                    <p>Proactively envisioned multimedia based expertise and cross-media growth strategies.</p>
+                    <div class="btn-group" role="group">
+                        <button class="btn btn-default">Resource</button>
+                        <button class="btn btn-default">Envision </button>
+                        <button class="btn btn-default">Niche </button>
+                    </div>
+                </div>
+            </div>
+            <!--Third panel end-->
+        </div>
+        <!--Left coloumn end-->
+        <!--              col-sm-3 end                    -->
+        <!--Center coloumn start-->
+        <div class="col-sm-6">
+            <!--Middle coloumn start-->
+            <div class="alert alert-success alert-dismissible" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <strong>Synergize:</strong> Seamlessly visualize quality intellectual capital!
+            </div>
+
+            <div class="row">
+                <article class="col-sm-12">
+                    <h1>Premier Niche Markets</h1>
+                    <p class="same">Phosfluorescently engage worldwide methodologies with web-enabled technology. Interactively coordinate
+                        proactive e-commerce via process-centric "outside the box" thinking. Completely pursue scalable customer
+                        service through sustainable potentialities.</p>
+                    <p><button type="button" class="btn btn-default">Readmore</button></p>
+                    <p class="pull-right"><span class="label label-default">Keyword</span> <span class="label label-default">Tag</span> <span class="label label-default">Post</span></p>
+                    <ul class="list-inline">
+                        <li><a>Today</a></li>
+                        <li> <a href="#"><span class="glyphicon glyphicon-comment"></span> 9 Comments</a> </li>
+                        <li><a href="#"><span class="glyphicon glyphicon-share"></span> 2 Shares </a></li>
+                    </ul>
+                </article>
+            </div>
+            <hr>
+
+            <div class="row">
+                <article class="col-sm-12">
+                    <h1>Proactively Envisioned</h1>
+                    <p class="same">Seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing. Holistically
+                        pontificate installed base portals after maintainable products. Proactively envisioned multimedia
+                        based expertise and cross-media growth strategies.</p>
+                    <p><button class="btn btn-default">Read More</button></p>
+                    <p class="pull-right"><span class="label label-default">Keyword</span> <span class="label label-default">Tag</span> <span class="label label-default">post</span></p>
+                    <ul class="list-inline">
+                        <li><a href="#">Today</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-comment"></span> 8 Comments</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-share"></span> 9 Shares</a></li>
+                    </ul>
+                </article>
+            </div>
+            <hr>
+
+            <div class="row">
+                <article class="col-sm-12">
+                    <h1>Completely Synergized</h1>
+                    <p>Seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing. Holistically
+                        pontificate installed base portals after maintainable products. Proactively envisioned multimedia
+                        based expertise and cross-media growth strategies.</p>
+                    <p class="same"><button class="btn btn-default">Read More</button></p>
+                    <p class="pull-right"><span class="label label-default">Keyword</span> <span class="label label-default">Tag</span> <span class="label label-default">post</span></p>
+                    <ul class="list-inline">
+                        <li><a href="#">Today</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-comment"></span> 8 Comments</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-share"></span> 9 Shares</a></li>
+                    </ul>
+                </article>
+            </div>
 
 
-</td>
-<td class="smiddleContainer">
-    <table class="leftTable" cellspacing="15px">
-        <tr>
-            <th>Home Page</th><th>Contact us</th>
-        </tr>
-        <tr><td class="rightTd">English</td><td class="rightTd">español</td></tr>
-        <tr><td class="rightTd">French</td><td class="rightTd">German</td></tr>
-        <tr><td class="rightTd">Urdu</td><td class="rightTd">Persian</td></tr>
-        <tr><td class="rightTd">Hindi</td><td class="rightTd">Uzbik</td></tr>
-        <tr><td class="rightTd">Danish</td><td class="rightTd">Turkish</td></tr>
-    </table >
-    <table class="secondLeftTable"><tr><td>
-        <h3 id="tableH">About This Site</h3>
-        <p>This website for people of various faith who seek to understand Islam and Muslims.It contains 
-            lot of brief and informative article about different aspects of Islam.
-            </p>        
-        </td></tr></table>
-        <table class="secondLeftTable" >
-            <tr><td>
-                <h3>Login form</h3>
-                </td></tr>
-                <tr>
-                <td>Email:<input type="text" id="input"></td></tr>
-                <td><span>Password</span>:<input type="password" id="input"></td></tr>
-                <td>Remember me:<input type="checkbox"></td></tr>
-                <td><input type="button" value="LogIn"></td></tr>
-        </table>
-</td>
 
-</div>
-
-</tr>
-</table>
+        </div>
+        <!--Middle coloumn end-->
+        <!--center coloumn end-->
+        <!--form-->
+        <div class="col-sm-3">
+            <!--RIght COloumn-->
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <a href="#" class="panel-title"> <span class="glyphicon glyphicon-log-in"></span> Log In</a>
+                </div>
+                <div class="panel-body">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Username" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="password" required>
+                        </div>
+                        <button type="button" class="btn btn-primary">Log In</button>
+                    </form>
+                </div>
+            </div>
+            <!--                                           form end                -->
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h1 class="panel-title"><span class="glyphicon glyphicon-scale"></span> Dramatically Engage</h1>
+                </div>
+                <div class="panel-body">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"
+                            style="width:100%">
+                            100% Proactively Envisioned
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                            80% objectively innovated
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"
+                            style="width:40%">
+                            40% innovated
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"
+                            style="width:20%">
+                            20% Danger
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Progrss bar end-->
+            <div class="panel panel-primary" >
+                <div class="panel-heading">
+                    <h1 class="panel-title">Tribute Pages</h1>
+                </div>
+                <div class="list-group">
+                    <a href="./Tributepages/index.html" class="list-group-item">Steve Jobs tribute page</a>
+                     <a href="./second/index.html" class="list-group-item">Islamic Website</a>
+                </div>
+            </div>
+        </div>
+        <!--RIght coloumn end-->
+    </div>
+    <!--container end-->
+    <nav class="navbar navbar-inverse navbar-static-bottom">
+        <div class="container">
+                <div class="navbar-header">
+                    <p class="navbar-brand bottom">This website is develope by <a href="https://github.com/Mughees605" target="blank">Hafiz Mughees Siddiqui</a>.</p>
+                </div>
+        </div>
+    </nav>
 </body>
 
 </html>
