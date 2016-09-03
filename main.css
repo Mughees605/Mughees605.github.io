@@ -1,6 +1,6 @@
 
 		 body{
-			 
+		
 		 }
 		 .port{
 			 border: 5px outset white;
@@ -37,14 +37,12 @@
 			color:white;
 			
 		 }
-		 .container{
-			 padding: 10px;
-		 }
+		 
 		 /* jumbotron start*/
 		 
 		 p.para{
 			 line-height: 1.5em;
-			 padding: 40px;	
+			 padding: 30px;	
 			 border: 10px outset #3b5998;
 			 font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
 			 font-style: oblique;	  
@@ -60,11 +58,6 @@
 			height: 100px;
 			border-top: 2px solid #3b5998;
 		}
-		.cpara{
-			padding-top:40px;
-		}
-		.head{
-			margin:10px;
-		}
-       
+		
+	
 	
