@@ -13,7 +13,7 @@
 		<div class="navbar-header">
                 <a href="#" class="navbar-brand"> <span class="header">Portfolio</span></a>
             </div>
-		<div class="nav navbar-nav navbar-right">
+		<div class="nav navbar-nav navbar-right" id="faqs">
 			<li><a href="#portfolio" class="con ">Portfolio</a></li>
 			<li><a href="#contacts" class="con">Contacts</a></li>
 			<li><a href="#about" class="port">About</a></li>
@@ -95,6 +95,14 @@
 			</div>
 			</div>
 		</div>
-	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script >
+		$('#faqs a').click(function(){
+			var faqid = $(this).attr('href');
+			$('body').animate({scrollTop: $(faqid).offset().top},"slow");
+			return false;
+		});
+		
+	</script>
 </body>
 </html>
