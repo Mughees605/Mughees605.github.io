@@ -1,0 +1,1 @@
+* The text inside any element is stored in the text node.
